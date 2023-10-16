@@ -21,4 +21,18 @@ This repository covers the basics of exception handling in C++, including differ
 
 There are two main types of exceptions in C++:
 
-1. Standard Exceptions: These are
+1. Standard Exceptions: These are built-in exceptions provided by C++ and are used to handle common errors.
+2. User-Defined Exceptions: You can create your own custom exceptions to handle specific scenarios.
+
+This repository explains both types and how to use them.
+
+## Syntax for Exception Handling
+
+In C++, exception handling is done using the `try`, `catch`, and `throw` blocks. The syntax for exception handling is straightforward:
+
+```cpp
+try {
+    // Code that might throw an exception
+} catch (ExceptionType e) {
+    // Code to handle the exception
+}
